@@ -1,0 +1,146 @@
+/* *Header */
+.logoimg {
+    width: 300px;
+    height: 100px;
+    margin-left: 90px;
+}
+
+.menu .nav-link {
+    margin: 10px 0 0 34.5px;
+    padding: 0 15px;
+    color: #ddc475;
+    font-weight: 500;
+}
+
+/* *Slider */
+.bd-example {
+    margin-top: 25px;
+}
+
+/* *content */
+.content {
+    background-color: #e7e7e4;
+}
+
+.content .image1 {
+    margin: 50px 0 0 25px;
+    width: 410px;
+    height: 320px;
+}
+
+.content .image2 {
+    width: 410px;
+    height: 320px;
+    margin: 50px 0 0 25px;
+}
+
+.content .caption {
+    font-weight: 100;
+    margin: 10px 0 0 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.content .caption b {
+    font-weight: 500;
+}
+
+.content .worker {
+    font-size: 45px;
+    text-align: center;
+    margin: 10px 0 0 30px;
+    text-transform: capitalize;
+}
+
+.content .button {
+    margin: 15px 0 0 170px;
+}
+
+.content .button1 {
+    margin: 15px 0 20px 190px;
+}
+
+/* *footer */
+.footer h6 {
+    text-align: left;
+    margin: 20px 10px;
+}
+
+/* *Dessktop Mode */
+@media (min-width: 1200px) {
+
+    /* *Header */
+    .logoimg {
+        width: 300px;
+        height: 100px;
+        margin: 10px 90px 0 0;
+    }
+
+    .menu {
+        float: right;
+        margin-top: -40px;
+        margin-left: 150px;
+    }
+
+    .menu .nav-link {
+        margin-top: -10px;
+        padding: 0 30px;
+    }
+
+    /* *Slider */
+    .bd-example img {
+        height: 500px;
+    }
+
+    /* *content */
+    .content {
+        background-color: #e7e7e4;
+    }
+
+    .content .image1 {
+        margin: 50px 0 0 25px;
+        width: 600px;
+        height: 350px;
+    }
+
+    .content .image2 {
+        margin: 50px 0 20px 600px;
+        width: 550px;
+        height: 350px;
+    }
+
+    .content .caption {
+        font-weight: 100;
+        margin-top: 150px;
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .content .caption b {
+        font-weight: 500;
+    }
+
+    .content .worker {
+        font-size: 45px;
+        text-align: center;
+        margin-left: -50px;
+    }
+
+    .content .caption-worker {
+        margin: 150px 0 0 -630px;
+        text-transform: capitalize;
+    }
+
+    .content .button {
+        margin: 15px 0 0 210px;
+    }
+
+    .content .button1 {
+        margin: 15px 0 0 90px;
+    }
+
+    /* *footer */
+    .footer h6 {
+        margin: 10px 10px;
+    }
+}
